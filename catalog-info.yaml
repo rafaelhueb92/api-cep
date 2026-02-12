@@ -1,0 +1,31 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: api-cep
+  description: API simples em FastAPI para consultar CEP via ViaCEP
+  tags:
+    - api
+    - rest
+    - python
+    - fastapi
+    - docker
+    - backend
+    - experimental
+
+  annotations:
+    github.com/project-slug: rafaelhueb92/api-cep
+
+  links:
+    - url: https://github.com/rafaelhueb92/api-cep
+      title: Repositório (GitHub)
+      icon: github
+    - url: http://localhost:3000/api-docs
+      title: API Docs (Backstage)
+      icon: docs
+    - url: http://localhost:8000/docs
+      title: Swagger UI (FastAPI)
+      icon: docs
+spec:
+  type: service
+  lifecycle: production
+  owner: group:default/team-cep
