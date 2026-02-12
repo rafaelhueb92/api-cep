@@ -1,8 +1,6 @@
 site_name: "API CEP"
 nav:
   - Home: index.md
-  - API:
-      - OpenAPI: openapi.yaml
-      - Catalog Info: catalog-info.yaml
+
 plugins:
   - techdocs-core
