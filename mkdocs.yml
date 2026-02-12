@@ -1,0 +1,8 @@
+site_name: "API CEP"
+nav:
+  - Home: index.md
+
+plugins:
+  - techdocs-core
+
+repo_url: https://github.com/rafaelhueb92/api-cep
