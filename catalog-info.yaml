@@ -14,6 +14,7 @@ metadata:
 
   annotations:
     github.com/project-slug: rafaelhueb92/api-cep
+    backstage.io/techdocs-ref: dir:.
 
   links:
     - url: https://github.com/rafaelhueb92/api-cep
