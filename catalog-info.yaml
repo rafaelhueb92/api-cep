@@ -59,3 +59,20 @@ specs:
    owner: group:default/team-cep
    dependecyOf:
      - component:default/api-cep
+---
+apiVersion: backstage.io/v1alpha1
+kind: API
+metadata:
+  name: api-cep
+  description: API para consulta de CEP usando ViaCEP
+  tags:
+    - rest
+    - openapi
+    - cep
+spec:
+  type: openapi
+  lifecycle: experimental
+  owner: user:default/guest
+  system: api-cep
+  definition:
+   $text: ./openapi.yaml
