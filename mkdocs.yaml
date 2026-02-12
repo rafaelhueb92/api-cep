@@ -1,4 +1,4 @@
-site_name: "API CEP"
+site_name: "api-cep"
 nav:
   - Home: index.md
 
