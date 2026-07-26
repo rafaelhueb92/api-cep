@@ -27,8 +27,8 @@ metadata:
       title: Swagger UI (FastAPI)
       icon: docs
     - url: https://viacep.com.br
-      titles: ViaCEP (External Service)
-      icom: web
+      title: ViaCEP (External Service)
+      icon: web
       type: external-dependency
 spec:
   type: service
@@ -48,15 +48,15 @@ metadata:
     - third-party
   links:
     - url: https://viacep.com.br
-      tile: ViaCEP Website
+      title: ViaCEP Website
       icon: web
     - url: https://viacep.com.br/ws/0130100/json
-      tiple: Exemplo de consulta
+      title: Exemplo de consulta
       icon: docs
-specs:
-  type: external-apo
+spec:
+  type: external-api
   owner: group:default/team-cep
-  dependecyOf:
+  dependsOn:
     - component:default/api-cep
 ---
 apiVersion: backstage.io/v1alpha1
